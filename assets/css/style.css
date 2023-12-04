@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Maven Pro', sans-serif;
 }
 :root{
     --font-family-two: 'Montserrat', sans-serif;
@@ -16,4 +14,145 @@
    --color-header: #13103E;
    --color-text:#444444;
    --view-border: #FF6C5A;
+   --font-size-one: 15px;
 }
+
+/* navbar-section-start */
+#navisition{
+    font-family: var(--font-family-two);
+}
+.logo img{
+    width: 80% !important;
+    height: 40px !important;
+}
+.nav-link{
+    font-weight: 500;
+    color: var(--color-header) !important;
+    font-size: var(--font-size-one);
+}
+
+.dropdown-menu .dropdown-item{
+ font-size: 14px;
+}   
+.home{
+    color: #E74C3C !important;
+    font-weight: 600;
+}
+/* .right-nav{
+    margin-right: 15%;
+} */
+.right-nav span{
+    font-size: var(--font-size-one);
+    margin-right: 5px;
+    font-weight: 500;
+    color: #E74C3C !important;
+}
+.right-nav img{
+ height: 12px;
+ margin-right: 10px;
+}
+
+
+
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+}
+
+.navbar-brand img {
+    padding: 0;
+}
+  
+.nav-item .navbar-link {
+    position: relative;
+    font-size: 18px;
+    padding: 5px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+ 
+
+.nav-item .navbar-link::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+
+.nav-item .navbar-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* navbar-section-end  */
+
+
+
+/* hero-section-start */
+#hero{
+    height: 500px;
+    background-image: linear-gradient(90deg,#FFDAD7,#EFEEFF );
+}
+/* .hero-main{
+    padding: 100px 0px;  
+} */
+.left-hero{
+    padding: 100px 0px;  
+}
+.left-hero h1{
+   /* margin-top: 100px; */
+   font-family: var(--font-family);
+   color: var(--view-border);
+   font-weight: 800;
+}
+.left-hero h2{
+
+    font-family: var(--font-family);
+    color: var(--color-header);
+    font-weight: 800;
+ }
+ .left-hero .web{
+    color: var(--view-border);
+    font-family: var(--font-family);
+    font-weight: 600;
+ }
+ .left-hero .web-text{
+    color: var(--color-text);
+    font-family: var(--font-family-two);
+    font-size: 13px;
+    font-weight: 500;
+ }
+
+
+
+.left-hero  .hire{
+background-color: var(--copyright);
+color: #fff;
+font-family: var(--font-family);
+padding: 5px 25px 5px 25px;
+
+}
+.left-hero .cv{
+    color: var(--color-header) !important;
+border-bottom: 1px solid var(--view-border);
+margin-left: 10px;
+font-family: var(--font-family);
+font-weight: 500;
+}
+
+.right-hero{
+    padding: 70px 0px 100px 0px; 
+}
+
+.right-hero img{
+    width: 60%;
+
+
+}
+/* hero-section-end */
