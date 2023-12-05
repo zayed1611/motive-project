@@ -16,7 +16,10 @@
    --view-border: #FF6C5A;
    --font-size-one: 15px;
 }
-
+.container{
+    width: 70% !important;
+    margin-top: auto;
+}
 /* navbar-section-start */
 #navisition{
     font-family: var(--font-family-two);
@@ -147,12 +150,107 @@ font-weight: 500;
 }
 
 .right-hero{
-    padding: 70px 0px 100px 0px; 
+    padding: 15% 0px 100px 0px; 
 }
 
 .right-hero img{
-    width: 60%;
-
+    width: 80%;
+float: right;
 
 }
+
+@media screen and (max-width:988px) {
+    .right-hero img{
+        width: 80%;
+    float: right;
+    display: none;
+    }
+    .right-hero{
+        padding: 15% 0px 100px 0px;
+        display: none; 
+    }
+}
 /* hero-section-end */
+
+
+
+/* experience-section-start */
+#experience{
+    padding: 50px 0px;
+}
+.experience-main{
+    padding: 20px 0px ;
+    background-image: linear-gradient(90deg,#FFDAD7,#EFEEFF );
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Projects{
+    padding: 20px;
+}
+.Projects img{
+display: block;
+margin: auto;
+}
+.Projects h4{
+    font-family: var(--font-family-two);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-header);
+    text-align: center;
+    margin-top: 20px;
+}
+    /* experience-section-end */
+
+    /* about-section-start */
+
+    #about{
+        padding: 20px 0px;
+    }
+
+    .about-header h2{
+text-align: center;
+font-family: var(--font-family);
+font-size: 30px;
+font-weight: 600;
+color: var(--color-header);
+    }
+.about-header p{
+        text-align: center;
+        font-family: var(--font-family);
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--color-text);
+           
+}
+
+.bio{
+    padding: 25px ;
+}
+.bio h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--color-header);
+}
+.bio p{
+ 
+        font-family: var(--font-family);
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--color-text);
+}
+.education{
+    padding: 25px;
+}
+.education h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--color-header);
+}
+.education hr{
+    width: 80px;
+    padding: 1px;
+    background-color: #E74C3C ;
+    text-align: center;
+}
+/* about-section-end */
