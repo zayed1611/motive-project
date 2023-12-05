@@ -512,3 +512,123 @@ color: var(--color-header);
    width: 90px;
 }
 /* working-section-end */
+
+/* Connect-section-start */
+
+#Connect{
+    padding: 30px 0px 50px 0px;
+    background-color: var(--background-color-let);
+}
+.let-connect{
+    padding: 0px 10px;
+}
+.let-connect h4{
+    text-align: center;
+    font-family: var(--font-family);
+    /* font-size: 30px; */
+    font-weight: 600;
+    color: #fff;
+}
+.let-connect img{
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.let-connect p{
+  
+    font-family: var(--font-family);
+    font-size: 13px;
+ margin-top: 20px;
+    color: #fff;
+}
+.connect-mail img{
+    width: 25px;
+}
+.connect-mail p{
+    text-align: center;
+    color: #fff;
+}
+
+.connect-phone img{
+    width: 25px;
+}
+.connect-phone p{
+    text-align: center;
+    color: #fff;
+}
+
+.loging-form{
+    padding: 0px 0px 0px 100px;
+}
+
+.loging-form label{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.loging-form input{
+    width: 100%;
+    background-color: var(--background-color-let);
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.submit{
+    background-color: var(--copyright);
+color: #fff;
+font-family: var(--font-family);
+padding: 8px 25px 8px 25px;
+text-decoration: none;
+border-top-left-radius: 5px;
+border-bottom-right-radius: 5px;
+font-size: 13px;
+}
+/* Connect-section-end */
+
+/* copyright-section-start */
+#copyright{
+    display: flex;
+    background-color: var(--copyright);
+    padding: 15px 0px;
+}
+.copy{
+    display: flex;
+    color: #fff;
+    margin-top: 10px;
+}
+.copy img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+
+}
+
+/* copyright-section-end */
+
+.scrollup {
+
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: var(--background-color-let);
+    bottom: 30px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .scrollup i {
+    color:#fff;
+    font-size:20px;
+    /* line-height:33px; */
+  
+  }
+  
+  .scrollup:hover {
+    background: tomato;
+  }
