@@ -127,23 +127,47 @@
    font-family: var(--font-family);
    color: var(--view-border);
    font-weight: 800;
+   opacity: 0;
+   animation: slideBottom 1s ease forwards;
+   animation-delay: .7s;
 }
+@keyframes slideBottom{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
 .left-hero h2{
 
     font-family: var(--font-family);
     color: var(--color-header);
     font-weight: 800;
+    opacity: 0;
+   animation: slideBottom 1s ease forwards;
+   animation-delay: 1s;
  }
  .left-hero .web{
     color: var(--view-border);
     font-family: var(--font-family);
     font-weight: 600;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1.5s;
  }
  .left-hero .web-text{
     color: var(--color-text);
     font-family: var(--font-family-two);
     font-size: 13px;
     font-weight: 500;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1.7s;
  }
 
 
@@ -153,6 +177,9 @@ background-color: var(--copyright);
 color: #fff;
 font-family: var(--font-family);
 padding: 5px 25px 5px 25px;
+opacity: 0;
+animation: slideBottom 1s ease forwards;
+animation-delay: 1.8s;
 
 }
 .left-hero  .hire:hover{
@@ -165,6 +192,9 @@ border-bottom: 1px solid var(--view-border);
 margin-left: 10px;
 font-family: var(--font-family);
 font-weight: 500;
+opacity: 0;
+animation: slideBottom 1s ease forwards;
+animation-delay: 1.9s;
 }
 .left-hero .cv:hover{
     border: 1px solid var(--view-border);
@@ -177,7 +207,19 @@ font-weight: 500;
 .right-hero img{
     width: 80%;
 float: right;
-
+opacity: 0;
+animation: slideright 1s ease forwards;
+animation-delay: 1.3s;
+}
+@keyframes slideright{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width:988px) {
@@ -659,7 +701,11 @@ color: var(--color-header);
 }
 .let-connect{
     padding: 0px 10px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
 }
+
 .let-connect h4{
     text-align: center;
     font-family: var(--font-family);
@@ -698,6 +744,9 @@ color: var(--color-header);
 
 .loging-form{
     padding: 0px 0px 0px 100px;
+    opacity: 0;
+animation: slideright 1s ease forwards;
+animation-delay: 1.3s;
 }
 
 .loging-form label{
