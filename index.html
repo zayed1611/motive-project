@@ -27,7 +27,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" />
     <!-- owl carousel -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 </head>
 
 <body>
@@ -95,8 +96,9 @@
                     <div class="col-sm-6">
                         <div class="left-hero">
                             <h1>HELLO !</h1>
-                            <h2>I AM ZAYED AMIN</h2>
-                            <p class="web">Experienced Web Designer</p>
+                            <h2>I AM <span class="text-2"> ZAYED AMIN</span></h2>
+                            <p class="web">Experienced<span style="margin-left: 10px;" class="text"> Web Designer</span>
+                            </p>
                             <p class="web-text">It is a long established fact that a reader will be distracted by the
                                 readable content of
                                 a page when looking at its layout. The point of using.</p>
@@ -123,25 +125,24 @@
     <section id="experience">
         <div class="container">
             <div class="experience-main">
-
-
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="Projects">
-                            <img src="./assets/icon/Group 15.png" alt="">
+                            <h2 class="num" data-val="5">1</h2>
+                            <!-- <h2 class="count" max-data="215">1</h2> -->
                             <h4>Years Of Experience </h4>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="Projects">
-                            <img src="./assets/icon/Group 17.png" alt="">
+                            <h2 class="num" data-val="150">1</h2>
                             <h4>Years Of Experience </h4>
                         </div>
 
                     </div>
                     <div class="col-sm-4">
                         <div class="Projects">
-                            <img src="./assets/icon/Group 19.png" alt="">
+                            <h2 class="num" data-val="100">1</h2>
                             <h4>Years Of Experience </h4>
                         </div>
                     </div>
@@ -452,7 +453,9 @@
                                         <div class="col-sm-6">
                                             <div class="connect-mail">
                                                 <img src="./assets/icon/Group 70.png" alt="">
-                                                <p>chat@mirahul.com</p>
+                                                <a href="#" style="text-decoration: none;">
+                                                    <p>chat@mirahul.com</p>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
@@ -504,8 +507,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/scritp.js"></script>
-    <!-- script -->
 
+    <!-- script -->
 </body>
 
 </html>

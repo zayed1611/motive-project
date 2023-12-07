@@ -213,6 +213,9 @@ float: right;
 .Projects{
     padding: 20px;
 }
+.Projects  h2{
+    text-align: center;
+}
 .Projects img{
 display: block;
 margin: auto;
@@ -642,6 +645,10 @@ color: var(--color-header);
    display: block;
    width: 90px;
 }
+.hire-me:hover{
+    color: var(--view-border);
+    background-color: var(--color-text) !important;
+}
 /* working-section-end */
 
 /* Connect-section-start */
@@ -715,6 +722,10 @@ text-decoration: none;
 border-top-left-radius: 5px;
 border-bottom-right-radius: 5px;
 font-size: 13px;
+}
+.submit:hover{
+    color: #fff;
+    background-color: var(--view-border);
 }
 /* Connect-section-end */
 
