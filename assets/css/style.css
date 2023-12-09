@@ -457,6 +457,10 @@ color: var(--view-border);
     border-bottom-right-radius: 10px;
     margin-top: 20px;
 }
+.ui-ux:hover{
+    border: 2px solid var(--view-border);
+  
+}
 .ui-ux img{
     width: 35px ;
     margin: auto;
@@ -741,13 +745,13 @@ color: var(--color-header);
     text-align: center;
     color: #fff;
 }
-
 .loging-form{
     padding: 0px 0px 0px 100px;
     opacity: 0;
 animation: slideright 1s ease forwards;
 animation-delay: 1.3s;
 }
+
 
 .loging-form label{
     color: #fff;
@@ -776,6 +780,14 @@ font-size: 13px;
     color: #fff;
     background-color: var(--view-border);
 }
+@media screen and (max-width:500px) {
+    .loging-form{
+        padding: 0px 0px 0px 0px;
+        opacity: 0;
+    animation: slideright 1s ease forwards;
+    animation-delay: 1.3s;
+    }
+  }
 /* Connect-section-end */
 
 /* copyright-section-start */
@@ -795,7 +807,15 @@ font-size: 13px;
     margin-top: 5px;
 
 }
-
+@media screen and (max-width: 500px) {
+    .copy{
+        display: flex;
+        color: #fff;
+        margin-top: 10px;
+        margin: auto;
+        width: 200px;
+    }
+  }
 /* copyright-section-end */
 
 .scrollup {
