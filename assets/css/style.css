@@ -61,7 +61,8 @@
     margin-right: 15%;
 } */
 .right-nav span{
-    font-size: var(--font-size-one);
+    /* font-size: var(--font-size-one); */
+    font-size: 15px;
     margin-right: 5px;
     font-weight: 500;
     color: #E74C3C !important;
@@ -140,9 +141,9 @@
     /* height: 500px; */
     background-image: linear-gradient(90deg,#FFDAD7,#EFEEFF );
 }
-/* .hero-main{
-    padding: 100px 0px;  
-} */
+.hero-main{
+    padding: 10px 0px;  
+}
 .left-hero{
     padding: 100px 0px;  
 }
@@ -150,10 +151,11 @@
    /* margin-top: 100px; */
    font-family: var(--font-family);
    color: var(--view-border);
-   font-weight: 800;
+   font-weight: 700;
    opacity: 0;
    animation: slideBottom 1s ease forwards;
    animation-delay: .7s;
+   font-size: 45px;
 }
 @keyframes slideBottom{
     0%{
@@ -187,7 +189,7 @@
  .left-hero .web-text{
     color: var(--color-text);
     font-family: var(--font-family-two);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -199,11 +201,13 @@
 .left-hero  .hire{
 background-color: var(--copyright);
 color: #fff;
+margin-top: -5px !important;
 font-family: var(--font-family);
 padding: 5px 25px 5px 25px;
 opacity: 0;
 animation: slideBottom 1s ease forwards;
 animation-delay: 1.8s;
+
 
 }
 .left-hero  .hire:hover{
@@ -219,17 +223,19 @@ font-weight: 500;
 opacity: 0;
 animation: slideBottom 1s ease forwards;
 animation-delay: 1.9s;
+margin-top: -5px !important;
 }
 .left-hero .cv:hover{
     border: 1px solid var(--view-border);
 }
 
 .right-hero{
-    padding: 15% 0px 100px 0px; 
+    padding: 50px 0px 100px 0px; 
 }
 
 .right-hero img{
-    width: 80%;
+    /* width: 80%; */
+    width: 370px;
 float: right;
 opacity: 0;
 animation: slideright 1s ease forwards;
@@ -248,13 +254,16 @@ animation-delay: 1.3s;
 
 @media screen and (max-width:988px) {
     .right-hero img{
-        width: 80%;
+        width: 100%;
     float: right;
-    display: none;
+    /* display: none; */
     }
     .right-hero{
-        padding: 15% 0px 100px 0px;
-        display: none; 
+        padding: 10px 0px 10px 0px;
+        /* display: none;  */
+    }
+    .left-hero{
+        padding: 100px 0px 10px 0px ;  
     }
 }
 /* hero-section-end */
@@ -277,10 +286,12 @@ animation-delay: 1.3s;
 }
 
 .Projects{
-    padding: 20px;
+    padding: 15px;
 }
 .Projects  h2{
     text-align: center;
+    font-family: var(--font-family-two);
+    font-weight: 700;
 }
 .Projects img{
 display: block;
@@ -456,6 +467,35 @@ color: var(--view-border);
   border-radius: 20px;
   margin-bottom: 10px;
 }
+@media screen and (max-width:988px) {
+    .from p{
+        color: var(--view-border);
+        text-align: center;
+        }
+        
+        .from h6{
+            color: var(--color-header);
+            text-align: center;
+            }
+            .career p{
+                color: var(--view-border);
+                text-align: center;
+            }
+                    
+            .career h6{
+                 color: var(--color-header);
+                 text-align: center;
+             }  
+             .mail p{
+                color: var(--view-border);
+                text-align: center;
+            }
+                    
+            .mail h6{
+                 color: var(--color-header);
+                 text-align: center;
+             } 
+}
 /* about-section-end */
 
 /* skill-section-start */
@@ -483,10 +523,10 @@ color: var(--view-border);
     border-bottom-right-radius: 10px;
     margin-top: 20px;
 }
-.ui-ux:hover{
+/* .ui-ux:hover{
     border: 2px solid var(--view-border);
   
-}
+} */
 .ui-ux img{
     width: 35px ;
     margin: auto;
@@ -504,7 +544,7 @@ color: var(--view-border);
     text-align: center;
     font-size: 12px;
 }
-/* skill-section-end */
+/* skill-section-end */ 
 
 /* project-section-start */
 
@@ -562,6 +602,7 @@ color: var(--view-border);
   .img-fix-over img{
     width: 25px;
     margin: auto;
+    margin-top: -1px;
     
   }
 .gallary-image-overlay{
@@ -600,6 +641,7 @@ color: var(--view-border);
   .img-over img{
     width: 25px;
     margin: auto;
+    margin-top: -1px;
     
   }
   .project-item:hover .img-over {
@@ -655,6 +697,18 @@ text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
 .pp img{
     object-fit: cover;
 }
+.pp-rating{
+    width: 90px;
+    margin: auto;
+ margin-top: -10px;
+ margin-bottom: 15px;
+}
+.pp-rating img{
+    object-fit: cover;
+}
+.testimonial-info{
+    padding: 0px 210px ;
+}
 .testimonial-info h6{
     text-align: center;
     font-family: var(--font-family);
@@ -692,6 +746,9 @@ text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
     .testimonial-header h1 {
       font-size: 2em;
     }
+    .testimonial-info{
+        padding: 0px 0px ;
+    }
   }
 /* testimonial-section-end */
 
@@ -706,6 +763,7 @@ text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
 .working-with h3{
     text-align: center;
     color: #fff;
+    font-family: var(--font-family-two);
 }
 .hire-me{
     background-color: var(--view-border) !important;
@@ -713,11 +771,12 @@ text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
     border-bottom-right-radius: 10px;
     padding: 5px 20px;
     font-size: 14px;
-    text-decoration: none;
+    text-decoration: none;  
     color: #fff;
     margin: auto;
    display: block;
    width: 90px;
+   font-family: var(--font-family);
 }
 .hire-me:hover{
     color: var(--view-border);
@@ -759,15 +818,16 @@ text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
     color: #fff;
 }
 .connect-mail img{
-    width: 25px;
+    width: 30px;
 }
 .connect-mail p{
     text-align: center;
     color: #fff;
+   
 }
 
 .connect-phone img{
-    width: 25px;
+    width: 30px;
 }
 .connect-phone p{
     text-align: center;
@@ -792,17 +852,18 @@ animation-delay: 1.3s;
     border-bottom: 1px solid #fff;
     color: #fff;
     margin-bottom: 20px;
+  
 }
 
 .submit{
     background-color: var(--copyright);
 color: #fff;
 font-family: var(--font-family);
-padding: 8px 25px 8px 25px;
+padding: 8px 30px 8px 30px;
 text-decoration: none;
 border-top-left-radius: 5px;
 border-bottom-right-radius: 5px;
-font-size: 13px;
+font-size: 14px;
 }
 .submit:hover{
     color: #fff;
@@ -852,7 +913,7 @@ font-size: 13px;
     width: 45px;
     height: 45px;
     background-color: var(--background-color-let);
-    bottom: 30px;
+    bottom: 20px;
     right: 50px;
     text-decoration: none;
     text-align: center;
