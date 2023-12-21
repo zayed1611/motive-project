@@ -58,7 +58,7 @@ valueDisplays.forEach((valueDisplay) => {
   let duration = Math.floor(interval / endValue);
   let counter = setInterval(function () {
     startValue +=1;
-    valueDisplay.textContent = startValue;
+    valueDisplay.innerHTML = startValue + `<sup class="counter_plus_icon">+<sup>`;
     if (startValue == endValue) {
       clearInterval(counter);
     }
