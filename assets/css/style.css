@@ -252,6 +252,35 @@ animation-delay: 1.3s;
         opacity: 1;
     }
 }
+@media screen and (max-width: 500px) {
+    .left-hero .cv{
+        color: var(--color-header) !important;
+    border-bottom: 1px solid var(--view-border);
+    margin-left: 10px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1.9s;
+    margin-top: 0px !important;
+    margin-top: 5px !important;
+    }
+    .left-hero  .hire{
+        background-color: var(--copyright);
+        color: #fff;
+        margin-top: 0px !important;
+        font-family: var(--font-family);
+        padding: 8px 25px 8px 25px;
+        opacity: 0;
+        animation: slideBottom 1s ease forwards;
+        animation-delay: 1.8s;
+        border-top-left-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        text-decoration: none;
+        margin-top: 5px !important;
+        
+        }
+}
 
 @media screen and (max-width:988px) {
     .right-hero img{
