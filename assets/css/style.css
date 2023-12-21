@@ -454,6 +454,18 @@ color: var(--view-border);
   border-radius: 20px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width:500px) {
+  .from{
+    text-align: center;
+  }
+  .career{
+    text-align: center;
+  }
+  .mail{
+    text-align: center;
+  }
+  }
 /* about-section-end */
 
 /* skill-section-start */
